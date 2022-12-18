@@ -803,6 +803,7 @@ a {
   line-height: 1em;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  cursor: pointer;
 }
 .checkbox-text > input {
   position: absolute;
