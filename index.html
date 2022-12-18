@@ -65,6 +65,45 @@
       <div class="backdrop is-hidden" data-modal>
         <div class="modal-window">
           <button class="close-btn" data-modal-close>x</button>
+          <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
+          <form action="" class="client-personal-info">
+            <label class="client-info-block"
+              ><span class="form-label">Ім'я</span>
+
+              <input type="text" required />
+              <svg class="modal-form-icon">
+                <use href="./images/icons.svg#icon-person-black-1"></use></svg
+            ></label>
+            <label class="client-info-block"
+              ><span class="form-label">Телефон</span>
+
+              <input type="tel" required />
+              <svg class="modal-form-icon">
+                <use href="./images/icons.svg#icon-phone-black"></use></svg
+            ></label>
+            <label class="client-info-block"
+              ><span class="form-label">Пошта</span>
+
+              <input type="email" required />
+              <svg class="modal-form-icon">
+                <use href="./images/icons.svg#icon-email-black"></use></svg
+            ></label>
+            <lable class="form-label"
+              >Коментар<textarea
+                name="coment"
+                rows="5"
+                placeholder="Введіть текст"
+                class="coment"
+              ></textarea>
+            </lable>
+            <label class="checkbox-text"
+              ><input type="checkbox" required /><svg>
+                <use href="./images/icons.svg#icon-check-1"></use></svg
+              >Погоджуюся з розсилкою та приймаю
+              <a href="#" class="conditions">Умови договору</a></label
+            >
+            <button type="submit">Відправити</button>
+          </form>
         </div>
       </div>
       <section class="benefits">
